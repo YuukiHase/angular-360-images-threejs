@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { ThreeSixtyViewComponent } from './components/three-sixty-view/three-sixty-view.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ThreeSixtyViewComponent
   ],
   imports: [
     BrowserModule
